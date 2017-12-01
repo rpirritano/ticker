@@ -3,11 +3,11 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'Clock'
+      'label': 'Ticker'
       'submenu': [
         {
           'label': 'Toggle'
-          'command': 'ticker:toggle'
+          'command': 'ticker-clock:toggle'
         }
       ]
     ]

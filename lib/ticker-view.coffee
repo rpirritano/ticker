@@ -1,6 +1,6 @@
-class TickerView extends HTMLElement
+class TickerClockView extends HTMLElement
   init: ->
-    @classList.add('ticker', 'inline-block')
+    @classList.add('ticker-clock', 'inline-block', 'icon-clock')
     @activate()
 
   activate: ->
@@ -24,4 +24,4 @@ class TickerView extends HTMLElement
   updateClock: ->
     @textContent = @getTime()
 
-module.exports = document.registerElement('ticker', prototype: TickerView.prototype, extends: 'div')
+module.exports = document.registerElement('ticker-clock', prototype: TickerClockView.prototype, extends: 'div')

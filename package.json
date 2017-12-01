@@ -1,12 +1,13 @@
 {
-  "name": "ticker",
-  "main": "./lib/ticker",
-  "version": "0.0.1",
-  "description": "A simple clock in the status bar",
+  "name": "ticker-clock",
+  "main": "./lib/ticker-clock",
+  "version": "1.0.0",
+  "description": "A simple clock for the status bar",
   "keywords": [
+    "clock",
+    "time",
+    "statusbar"
   ],
-  "activationCommands": {
-  },
   "repository": "https://github.com/rpirritano/ticker.git",
   "license": "MIT",
   "engines": {
@@ -15,10 +16,8 @@
   "consumedServices": {
     "status-bar": {
       "versions": {
-        "^1.0.0": "consumedStatusBar"
+        "^1.0.0": "consumeStatusBar"
       }
     }
-  },
-  "dependencies": {
   }
 }
