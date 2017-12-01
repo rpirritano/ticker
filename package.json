@@ -1,0 +1,17 @@
+{
+  "name": "ticker",
+  "main": "./lib/ticker",
+  "version": "0.0.1",
+  "description": "A simple clock in the status bar",
+  "keywords": [
+  ],
+  "activationCommands": {
+  },
+  "repository": "https://github.com/rpirritano/ticker.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

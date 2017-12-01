@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ticker",
+        "command": "ticker:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ticker",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ticker:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
