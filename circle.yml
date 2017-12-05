@@ -1,0 +1,24 @@
+machine:
+
+  timezone:
+    America/San_Francisco # Set the timezone
+  python:
+    version: 2.7.10
+  node:
+    version: 6.11.5
+
+dependencies:
+  pre:
+    - npm install coffeescript # install from a different package manager
+    - gem uninstall bundler # use a custom version of bundler
+    - gem install bundler --pre
+
+test:
+  override:
+    - yarn test
+
+deployment:
+  develop:
+    branch: master
+    commands:
+      
