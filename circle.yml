@@ -1,7 +1,7 @@
 machine:
 
   timezone:
-    America/San_Francisco # Set the timezone
+    America/Los_Angeles # Set the timezone
   python:
     version: 2.7.10
   node:
@@ -21,4 +21,3 @@ deployment:
   develop:
     branch: master
     commands:
-      
