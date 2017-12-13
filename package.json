@@ -1,7 +1,7 @@
 {
   "name": "ticker-clock",
   "main": "./lib/ticker-clock",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A simple clock for the status bar",
   "keywords": [
     "clock",
