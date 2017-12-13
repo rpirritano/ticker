@@ -8,6 +8,7 @@ The clock can be installed through Atom.  Select Preferences > Install and searc
 ### Features
 * Customizable time format to view time in 24 hour format or military format
 
+![Image of the Ticker](screenshots/clock.png "Default ticker view")
 
 ### Contributing
 **Want to help create ticker features?** Please, feel free to fork this repository, and make any change you like. If you
